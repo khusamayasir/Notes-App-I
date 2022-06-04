@@ -5,6 +5,9 @@ export default function App() {
     <main>
       <div className="no-notes">
         <h1>You have no notes</h1>
+        <button>
+          
+        </button>
       </div>
     </main>
   )
