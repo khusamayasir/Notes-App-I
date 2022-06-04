@@ -2,6 +2,7 @@ import React from "react"
 import Sidebar from "./components/Sidebar"
 import Editor from "./components/Editor"
 import "./style.css"
+import {nanoid} from "nanoid"
 
 export default function App() {
   const [notes, setNotes] = React.useState([])
