@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react"
 
 export default function App() {
   return (
-    <div>App</div>
+    <main>
+      <div className="no-notes">
+        <h1>You have no notes</h1>
+      </div>
+    </main>
   )
 }
