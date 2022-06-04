@@ -21,3 +21,32 @@ body {
 .sidebar--note {
     /* display: flex; */
 }
+
+.sidebar--header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sidebar--header > h3 {
+    font-size: 1.75rem;
+}
+
+.new-note {
+    cursor: pointer;
+    background-color: #4A4E74;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+}
+
+.first-note {
+    cursor: pointer;
+    background-color: #4A4E74;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 1rem;
+}
