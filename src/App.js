@@ -36,6 +36,30 @@ export default function App() {
 
   return (
     <main>
+      {
+      notes.length > 0 ?
+      <Split
+      sizes={[30, 70]} 
+      direction="horizontal" 
+      className="split"
+      >
+        <Sidebar 
+        notes={notes}
+        currentNote={findCurrentNote()}
+        setCurrentNoteId={setCurrentNoteId}
+        newNote={createNewNote}
+        />
+        
+        {
+            currentNoteId && 
+            notes.length > 0 &&
+            <Editor 
+                currentNote={findCurrentNote()} 
+                updateNote={updateNote} 
+            />
+        }
+        </Split>
+        :
       <div className="no-notes">
         <h1>You have no notes</h1>
         <button
@@ -43,6 +67,7 @@ export default function App() {
           Create one now
         </button>
       </div>
+       }
     </main>
   )
 }
