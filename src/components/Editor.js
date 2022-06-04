@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react"
 
 export default function Editor() {
   return (
-    <div>Editor</div>
+    <section className="pane-editor">
+
+    </section>
   )
 }
