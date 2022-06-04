@@ -19,6 +19,14 @@ export default function App() {
     setCurrentNoteId(newNote.id)
   }
 
+  function updateNote(text) {
+    setNotes(oldNotes => oldNotes.map(oldNote => {
+        return oldNote.id === currentNoteId
+            ? { ...oldNote, body: text }
+            : oldNote
+    }))
+}
+
   return (
     <main>
       <div className="no-notes">
