@@ -25,7 +25,13 @@ export default function App() {
             ? { ...oldNote, body: text }
             : oldNote
     }))
-}
+  }
+
+  function findCurrentNote() {
+    return notes.find(note => {
+        return note.id === currentNoteId
+    }) || notes[0]
+  }
 
   return (
     <main>
