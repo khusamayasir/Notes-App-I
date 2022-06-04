@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react"
 
 export default function Sidebar() {
   return (
-    <div>Sidebar</div>
+    <section className="pane-sidebar">
+        
+    </section>
   )
 }
