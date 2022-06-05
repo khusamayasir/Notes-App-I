@@ -63,7 +63,9 @@ export default function App() {
       <div className="no-notes">
         <h1>You have no notes</h1>
         <button
-        className="first-note">
+        className="first-note"
+        onClick={createNewNote}
+        >
           Create one now
         </button>
       </div>
