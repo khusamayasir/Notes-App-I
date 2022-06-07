@@ -8,7 +8,18 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
+.ql-editor p,
+.ql-editor.ql-blank::before {
+    font-size: 1.3em;
+    font-weight: 100;
+}
+
 .pane {
     overflow-y: auto;
     /* padding: 10px; */
+}
+
+.editor {
+    width: 80%;
+    height: 100vh;
 }
