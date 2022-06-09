@@ -7,14 +7,14 @@
 - CSS
 - React
 
-## Preview:
+## Preview
 ![preview](./preview/starting.png)
-can i write here or not....
 ![preview](./preview/note-editor.png)
+<h6>This editor provides you with all features that are present in upper bar to edit, customize and enhance your notes with features of bold, italic, alignments, inverted comma etc. It provides users a feature to insert images as well to their notes.</h6>
 ![preview](./preview/preview-note.png)
 ![preview](./preview/delete-note.png)
 
-## Contact Me:
+## Contact Me
 - LinkedIn - [khusamayasir](https://www.linkedin.com/in/khusamayasir/)
 - Twitter - [khusamayasir](https://www.twitter.com/khusamayasir)
 - Instagram - [khusamayasir](https://www.instagram.com/khusamayasir)
