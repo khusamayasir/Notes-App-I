@@ -1,6 +1,6 @@
 # Notes App 
 
-<p> You can Check Here: </p>
+<p> You can Check Here: https://note-app-scrimba-khusamayasir.netlify.app</p>
 
 ## Built With:
 - HTML
