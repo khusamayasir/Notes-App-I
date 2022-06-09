@@ -8,7 +8,11 @@
 - React
 
 ## Preview:
-
+![preview](./preview/starting.png)
+can i write here or not....
+![preview](./preview/note-editor.png)
+![preview](./preview/preview-note.png)
+![preview](./preview/delete-note.png)
 
 ## Contact Me:
 - LinkedIn - [khusamayasir](https://www.linkedin.com/in/khusamayasir/)
